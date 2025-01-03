@@ -20,6 +20,7 @@
       --color-button-accent: 59, 130, 246;
       --color-button-accent-hover: 0, 185, 255;
       --color-button-muted: 226, 232, 240;
+      }
     }
     [data-theme="red"] {
       --color-text-base: 28, 25, 23;

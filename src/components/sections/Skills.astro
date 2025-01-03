@@ -18,6 +18,12 @@ import Kotlin from "@/icons/kotlin.astro";
 import Flutter from "@/icons/flutter.astro";
 import Figma from "@/icons/Figma.astro";
 import Gitlab from "@/icons/Gitlab.astro";
+import Vue from "@/icons/Vue.astro"
+import PHP from "@/icons/php.astro"
+import Magento from "@/icons/Magento.astro"
+import Bootstrap from "@/icons/Bootstrap.astro"
+import Laravel from "@/icons/Laravel.astro"
+import ChromeExtensions from "@/icons/ChromeExtensions.astro"
 
 const SKILLS_ICONS: Record<string, any> = {
 	HTML,
@@ -37,6 +43,12 @@ const SKILLS_ICONS: Record<string, any> = {
 	Flutter,
 	Figma,
 	Gitlab,
+	Vue,
+	PHP,
+	Magento,
+	Bootstrap,
+	Laravel,
+	ChromeExtensions
 };
 ---
 
@@ -44,7 +56,7 @@ const SKILLS_ICONS: Record<string, any> = {
 	<ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm">
 		{
 			skills.map(({ name }) => {
-				const iconName = name === "Next.js" ? "Next" : name;
+				const iconName = name === "Next.js" ? "Next" : name === "Chrome Extensions" ? "ChromeExtensions" : name;
 				const Icon = SKILLS_ICONS[iconName];
 
 				return (
