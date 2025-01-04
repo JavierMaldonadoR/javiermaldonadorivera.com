@@ -5,7 +5,7 @@
     "image": "/me_avatar.png",
     "cv": "/Javier_Maldonado_Rivera_CV.pdf",
     "email": "javiermaldonadoriv@outlook.com",
-    "phone": "+52 614-188-5154",
+    "phone": "",
     "url": "https://javiermaldonadorivera.com",
     "summary": "Senior Front-End Engineer with 8+ years of experience specializing in Vue.js, TypeScript, and eCommerce solutions. Proven track record in optimizing UX/UI, improving performance, and leading migrations for large-scale platforms, including browser extensions and Magento 2 projects.",
     "theme": "blue",
@@ -153,15 +153,6 @@
   "certificates": [],
   "skills": [
     {
-      "name": "Magento",
-      "level": "Intermediate",
-      "keywords": [
-        "Adobe",
-        "Ecommerce",
-        "PHP"      
-      ]
-    },
-    {
       "name": "Vue",
       "level": "Intermediate",
       "keywords": [
@@ -199,6 +190,15 @@
         "Frontend",
         "Backend",
         "Fullstack"
+      ]
+    },
+    {
+      "name": "Magento",
+      "level": "Intermediate",
+      "keywords": [
+        "Adobe",
+        "Ecommerce",
+        "PHP"      
       ]
     },
     {
