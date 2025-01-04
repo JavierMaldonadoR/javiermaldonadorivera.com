@@ -15,28 +15,28 @@ This project is refactored from the original [**dev-portfolio**](https://github.
 
 ### 1. Use this Repo as an Astro Project Template
 
-- I use [pnpm](https://pnpm.io/installation) as my package manager.
+- I use [npm](https://docs.npmjs.com/) as my package manager.
 
 ```bash
-# Enable pnpm on MacOS, WSL & Linux:
-corepack enable
-corepack prepare pnpm@latest --activate
+# Enable npm on MacOS, WSL & Linux:
+npm install -g npm@latest
 ```
 
 # Initialize the project
 ```bash
-pnpm create astro@latest -- --template Smilesharks/dev-portfolio
+git clone https://github.com/JavierMaldonadoR/javiermaldonadorivera.com.git
+cd javiermaldonadorivera.com
+npm install
 ```
-
 ### 2. Add Your Content:
 
-Edit the `cv.json` file to create your own printable Portfolio/CV.
+Edit the `cv.json` file to create your own Portfolio/CV.
 
 ### 3. Launch the Development Server:
 
 ```bash
 # Enjoy the results
-pnpm dev
+npm dev
 ```
 1. Open [**http://localhost:4321**](http://localhost:4321/) in your browser to view the result 🚀
 
