@@ -79,8 +79,8 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 				}
 				{
 					cv && (
-						<a href={cv} class="font-bold" target="_blank" rel="noopener noreferrer">
-							CV
+						<a href={cv} target="_blank" rel="noopener noreferrer">
+							<span class="font-bold border rounded-lg p-1 border-current hover:bg-white duration-500">CV</span>
 						</a>
 					)
 				}
