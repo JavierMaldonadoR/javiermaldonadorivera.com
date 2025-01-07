@@ -8,6 +8,7 @@ import Hero from "@/components/sections/Hero.astro";
 import Skills from "@/components/sections/Skills.astro";
 import Tail from "@/components/sections/Tail.astro";
 import ThemeSwitch from "@/components/ThemeSwitch.astro";
+import Analytics from '@vercel/analytics/astro'
 
 import { basics } from "@cv";
 const { name } = basics;
@@ -24,6 +25,7 @@ const { name } = basics;
 		<div class="space-y-12 md:col-span-4 print:col-span-1 print:grid print:grid-cols-4 print:gap-2 print:space-y-0">
 			<Skills className="print:hidden" />
 			<Experience className="print:col-span-3" />
+			<Analytics/ >
 		</div>
 		<Tail />
 	</main>
